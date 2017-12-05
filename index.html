@@ -9,13 +9,13 @@
 	<meta name="description" content="">
 
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-	<meta property="og:image" content="">
-	<link rel="shortcut icon" href="" type="image/x-icon">
-	<link rel="apple-touch-icon" href="">
-	<link rel="apple-touch-icon" sizes="72x72" href="">
-	<link rel="apple-touch-icon" sizes="114x114" href="">
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
 
 	<!-- Chrome, Firefox OS and Opera -->
 	<meta name="theme-color" content="#000">
@@ -23,180 +23,209 @@
 	<meta name="msapplication-navbutton-color" content="#000">
 	<!-- iOS Safari -->
 	<meta name="apple-mobile-web-app-status-bar-style" content="#000">
-
+   
 	
 
 </head>
 
 <body>
-  <div class="wrapper">
-        <header class="my-head">
-           
-           <div class="frame">
-               <div class="frame_dn"></div>
-               <div class="photo"></div>
-           </div>
-           <div class="name"><h1>Пацера Артем</h1></div>
-           <div class='vk'><a class='t1' href="https://vk.com/id28660770"><img src="img/vk.png" alt="vk"></a></div>
-           <div class='skype'><a class='t2' href="skype:artyom_patsera?chat"><img src="img/skype.png" alt="skype"></a></div>
-        </header>
-        <div class="container clear-fix">
-              <div class="row">
-               
-                    <div class="life-info col col-lg-5 col-sm-12 col-md-5">
-                       <div class='my-info'>
-                           <ul class='birth'>
-                               <li>Дата рождения:</li>
-                               <li>28.01.1993</li>
-                           </ul>
-                           <ul class='city'>
-                                <li>Место продивания:</li>
-                                <li>г. Николаев</li>
-                           </ul>
-                           <ul class="my-phone">
-                               <li>Телефон:</li>
-                               <li>+380952481941</li>
-                           </ul>
-                           <ul class="Email">
-                               <li>Email:</li>
-                               <li>ArtyomPatsera@gmail.com</li>
-                           </ul>
-                        </div>
-                        <div class='education pddt'>
-                           <ul class='university'>
-                               <li>
-                                   Национальный университет кораблестроения
-        имени адмирала Макарова 
-                               </li>
-                           </ul>
-                           <ul class='data'>
-                                <li>
-                                    2010-2014
-                                </li>
-                           </ul>
-                           <ul class='faculty pddt'>
-                                <li>Факультет:</li>
-                                <li>Компьютерные науки</li>
-                           </ul>
+	<div class="preloder">
+		<div class="loder">
+			<img src="img/preloder.gif" alt="">
+			<span>Loding...</span>
+		</div>
+		
+	</div>
+	<div class="wrapper">
+		<div class="header" data-speed="20" data-type="background" id="h">
+			<div class="pm">
+				<div class="phone">
+					<i class="fa fa-mobile" aria-hidden="true"></i> +38(095)24-81-941
+				</div>
+				<div class="mail">
+					<i class="fa fa-envelope-o" aria-hidden="true"></i> ArtyomPatsera@gmail.com
+				</div>
+			</div>
+			<div class="frame">
+				<div class="hello text">Привет, меня зовут Пацера Артем и я</div>
+				<div class="fed"><h1>front-end developer</h1></div>
+				<div class="vk"><a href="https://vk.com/id28660770"><i class="fa fa-vk" aria-hidden="true"></i></a></div>
+				<div class="sk"><a href="skype:artyom_patsera?chat"><i class="fa fa-skype" aria-hidden="true"></i></a></div>
+			</div>
+			<div class="down-wrap">
+				<a href="#m" class="down">
+					<div class="down-anime">
+						<i class="fa fa-chevron-down " aria-hidden="true"></i>
+					</div>
+				</a>
+			</div>
+		</div>
+		<div class="wrapp-nav" id='menu'>
+			<div class="container">
+				<div class="nav text">
+					<div class="menu-trigger">
+						 <div class='bt' href="">
+    						<div class='top-line line'></div>
+    						<div class='center-line line'></div>
+   						    <div class='bottom-line line'></div>
+  						</div>
+					</div>
+					<ul>
+						<li><a href="#h">главная</a></li>
+						<li><a href="#m">о бо мне</a></li>
+						<li><a href="#counts">навыки</a></li>
+						<li><a href="#w">работы</a></li>
+						
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="section-two text" id='m'>
+			<div class="container" id='d'>
+				<div class="caption">
+					<h2 >личная информация</h2>
+				</div>
+				<div class="row">
+					<div class="my-info col-12 col-md-6 col-lg-3">
+						<i class="fa-2x fa fa-birthday-cake" aria-hidden="true"></i>
+						<h3>Дата рождения</h3>
+						<span>28</span>
+						<span>Январь</span>
+						<span>1993 г.</span>
+					</div>
+					<div class="my-info col-12 col-md-6 col-lg-3">
+						<i class="fa-2x fa fa-map-marker" aria-hidden="true"></i>
+						<h3>Место проживания</h3>
+						<span>Украина</span>
+						<span>г. Николаев</span>
+					</div>
+					<div class="my-info col-12 col-md-6 col-lg-3">
+						<i class="fa-2x fa fa-graduation-cap" aria-hidden="true"></i>
+						<h3>Образование</h3>
+						<span>Высшее</span>
+						<span>2010-2016 г.</span>
+						<span>Национальный университет кораблестроения имени адмирала Макарова</span>
+						<span>Факультет: Компьютерные науки</span>
+					</div>
+					<div class="my-info col-12 col-md-6 col-lg-3">
+						<i class="fa-2x fa fa-fighter-jet" aria-hidden="true"></i>
+						<h3>Служба в армии</h3>
+						<span>2016-2017 г.</span>
+						<span>Национальна гвардия Украины</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="section-three text">
+			<div class="container">
+				<div class="caption">
+					<h2>интересы</h2>
+				</div>
+				<div class="row">
+					<div class="wrapp-slide">
+						<div class="slide slide-1">
+							<div class="slide-text">
+								<div class="wrapp-text">
+									<h3>занятие тяжелой атлетикой</h3>
+									<p>-Укрепляет дух и тело</p>
+								</div>
+							</div>
+							<img src="img/ta.jpg" alt="тяжелая атлетика">
+						</div>
+						<div class="slide slide-2">
+							<div class="slide-text">
+								<div class="wrapp-text">
+									<h3>Веб-разработка</h3>
+									<p>-Не только работа но и хобби</p>
+								</div>
+							</div>
+							<img src="img/webd2.jpg" alt="веб-разработка">
+						</div>
+						<div class="slide slide-3">
+							<div class="slide-text">
+								<div class="wrapp-text">
+									<h3>музыка</h3>
+									<p>-Всегда поднимает настроение</p>
+								</div>
+							</div>
+							<img src="img/music.jpg" alt="музика">
+						</div>
+					</div>
 
-                           <ul class="specialty">
-                               <li>Специальность:</li>
-                               <li>Информационные
-                                   управляющие системы и
-                                   технологии (бакалавр)
-                              </li>
-                           </ul>
-                           <ul class="diploma">
-                               <li>
-                                   Дипломная работа:
-                               </li>
-                               <li>«Разработка информационной
-                                   системы для магазина
-                                   спортивного оборудования»
-                               </li>
-                           </ul>
-                           <ul class='data'>
-                                <li>2014-2016</li>
-                           </ul>
-                            <ul class='faculty pddt'>
-                                <li>Факультет:</li>
-                                <li>Компьютерные науки</li>
-                           </ul>
+				</div>
+			</div>
+		</div>
+		<div class="section-four" id='counts'>
+			<div class="container">
+				<div class="caption" >
+					<h2 >навыки</h2>
+				</div>
+				<div class="row">
+					<div class="wrapp-pb col-12 col-md-4">
+						<h3>html</h3>
+						<div class="pb" id='pb-1'></div>
+					</div>
+					<div class="wrapp-pb col-12 col-md-4">
+						<h3>css</h3>
+						<div class="pb" id='pb-2'></div>
+					</div>
+					<div class="wrapp-pb col-12 col-md-4">
+						<h3>jQuery</h3>
+						<div class="pb" id='pb-3'></div>
+					</div>
+				</div>
+				<div class="instruments" id='counts-two'>
+					
+					<div class="instruments-cap" >
+							
+						<h3>Использую в работе</h3>
+							
+					</div>
+					<div class="intr-wrapp ">
+						<div class="row">
+							<div class="wrap-img col-12 col-md-6 col-lg-2"><img src="img/gulp.png" alt="gulp"></div>
+							<div class="wrap-img col-12 col-md-6 col-lg-2"><img src="img/git.png" alt="Git"></div>
+							<div class="wrap-img col-12 col-md-6 col-lg-2"><img src="img/sass.png" alt="Sass"></div>
+							<div class="wrap-img col-12 col-md-6 col-lg-2"><img src="img/bst.png" alt="Bootstrap"></div>
+							<div class="wrap-img col-12 col-md-12 col-lg-2"><img src="img/ps.png" alt="Photoshop"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="section-five" id='w'>
+			<div class="container">
+				<div class="caption">
+					<h2>мои работы</h2>
+				</div>
+				<div class="row">
+					<div class="wrapp-worck  col-12 col-md-6 col-lg-4">
+						<div class='wrapp-h ww-1' href=""><p class='h-down'>Сайт - реклама с услугами для Аквариумиста</p><span class='h'></span><a class='w-bt' href="https://github.com/Artyom-Patsera/akvarium">посмотреть</a><img src="img/pw-1.jpg" alt=""></div>
+					</div>
+					<div class="wrapp-worck  col-12 col-md-6 col-lg-4">
+						<div class='wrapp-h ww-2' href=""><p class='h-down'> тренировочный проект(в разработке)</p><span  class='h'></span><a class='w-bt' href="https://github.com/Artyom-Patsera/training-project">посмотреть</a><img src="img/pw-2.jpg" alt=""></div>
+					</div>
+					<div class="wrapp-worck  col-12 col-md-6 col-lg-4">
+						<div class='wrapp-h ww-3' href=""><p class='h-down'>сайт - портфолио</p><span class='h'></span><a class='w-bt' href="https://github.com/Artyom-Patsera/Artyom-Patsera.github.io">посмотреть</a><img src="img/pw-3.jpg" alt=""></div>
+					</div>
+					<div class="ps">Примечание: В работах используется Flexbox grid (Bootstrap 4) но могу верстать под любые версии браузеров </div>
+				</div>
+			</div>
+		</div>
 
-                           <ul class="specialty">
-                               <li>Специальность:</li>
-                               <li>Компьютерный
-                                    экологоэкономический
-                                    мониторинг (специалист)
-                              </li>
-                           </ul>
-                           <ul class="diploma">
-                               <li>
-                                   Дипломная работа:
-                               </li>
-                               <li>
-                                   «Разработка информационной
-                                    системы мониторинга
-                                    загрязнения атмосферного
-                                    воздуха»
 
-                               </li>
-                           </ul>
-                        </div>
-                        <div class='armia pddt'>
-                           <ul class='voiska'>
-                               <li>Национальна гвардия Украины</li>
-                           </ul>
-                           <ul class='data'>
-                                <li>2016-2017</li>
-                           </ul>
-                           <ul class='zvanie pddt'>
-                               <li>Звание:</li>
-                               <li>Старший солдат</li>
-                           </ul>
-
-
-                        </div>
-                    </div>
-                
-                
-                
-                    <div class="worck col col-lg-7 col-sm-12 col-md-7 ">
-                       <div class="skills">
-                          <div class='skill-info'>
-                               <ul clas='my-skill'>
-                                   <li>Веб-технологии:</li>
-                                   <li>Html, Css, JQuery AJAX, Gulp, Bootstrap;</li>
-                               </ul>
-                               <ul class='preeprocesor'>
-                                   <li>Препроцессоры:</li>
-                                   <li>Haml, Sass, Less;</li>
-                               </ul>
-                               <ul class='met'>
-                                   <li>Понимания принципов методологий: </li>
-                                   <li>OOCSS, БЭМ;</li>
-                               </ul>
-                               <ul>
-                                   <li>Системы контроля версий:</li>
-                                   <li>Git, Svn; </li>
-                               </ul>
-			       <ul>
-				   <li>Системы управления контентом:</li>
-				   <li>Wordpress;</li>
-			       </ul>
-                               <ul>
-                                   <li>Графические редакторы:</li>
-                                   <li>Adobe Photoshop, Adobe Dreamweaver, Adobe InDesign;</li>
-                               </ul>
-                           </div>
-                           <div class="experience pddt">
-                               <ul>
-                                   <li>06.2015-07.2015 </li>
-                                   <li>Практика в отделе разработки ПО ПриватБанка.</li>
-                               </ul>
-                               
-
-                           </div>
-                           <div class="int-wrap pddt"></div>
-                            <div class="interests pddt">
-                                <div class="wrap-it">
-                                    <div class="item it-1"></div>
-                                    <div class="item it-2"></div>
-                                </div>
-                                <div class="wrap-it">
-                                    <div class="item it-3"></div>
-                                    <div class="item it-4"></div>
-                                </div>
-                            </div>
-                           
-                       </div>
-                    </div>
-                </div>
-            </div>   
-
-          </div>
-  <footer class="footer"></footer>
-  
+	</div>
+	<div class="footer">
+			<div class="container">
+				<div class="vk"><a href="https://vk.com/id28660770"><i class="fa fa-vk" aria-hidden="true"></i></a></div>
+				<div class="sk"><a href="skype:artyom_patsera?chat"><i class="fa fa-skype" aria-hidden="true"></i></a></div>
+				<div class="pr">© 2017 Patsera Artem | ArtyomPatsera@gmail.com </div>
+				<div class="phone">
+					<i class="fa fa-mobile" aria-hidden="true"></i> +38(095)24-81-941
+				</div>
+			</div>
+		</div>
+	
    
    
    
@@ -210,6 +239,7 @@
 
 	
 	<link rel="stylesheet" href="css/main.min.css">
+	
 	<script src="js/scripts.min.js"></script>
 
 </body>
