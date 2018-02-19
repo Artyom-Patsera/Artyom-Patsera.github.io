@@ -14,7 +14,7 @@
 	<!-- <meta property="og:image" content="path/to/image.jpg"> -->
 	<link rel="shortcut" href="img/icon-16.png" type="image">
 	<link rel="apple-touch-icon" href="img/icon-48.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="img/icon - 72.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/icon-72.png">
 	<!-- <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png"> -->
 	
 
@@ -24,7 +24,7 @@
 	<meta name="msapplication-navbutton-color" content="#000">
 	<!-- iOS Safari -->
 	<meta name="apple-mobile-web-app-status-bar-style" content="#000">
-   
+   	<link rel="stylesheet" href="css/main.min.css">
 	
 
 </head>
@@ -37,22 +37,24 @@
 		</div>
 		
 	</div>
+	<!-- begin wrapper -->
 	<div class="wrapper">
-		<div class="header" data-speed="20" data-type="background" id="h">
-			<div class="pm">
+		<!-- begin header -->
+		<header class="header" data-speed="20" data-type="background" id="h">
+			<section class="pm">
 				<div class="phone">
 					<i class="fa fa-mobile" aria-hidden="true"></i> +38(095)24-81-941
 				</div>
 				<div class="mail">
-					<i class="fa fa-envelope-o" aria-hidden="true"></i> ArtyomPatsera@gmail.com
+					<i class="fas fa-envelope"></i> ArtyomPatsera@gmail.com
 				</div>
-			</div>
-			<div class="frame">
-				<div class="hello text">Привет, меня зовут Пацера Артем и я</div>
-				<div class="fed"><h1>front-end developer</h1></div>
-				<div class="vk"><a href="https://vk.com/id28660770"><i class="fa fa-vk" aria-hidden="true"></i></a></div>
-				<div class="sk"><a href="skype:artyom_patsera?chat"><i class="fa fa-skype" aria-hidden="true"></i></a></div>
-			</div>
+			</section>
+			<article class="frame">
+				<span class="hello text">Привет, меня зовут Пацера Артем и я</span>
+				<span class="fed"><h1>front-end developer</h1></span>
+				<div class="gm"><a href="mailto:ArtyomPatsera@gmail.com"><i class="fas fa-envelope"></i></a></div>
+				<div class="sk"><a href="skype:artyom_patsera?chat"><i class="fab fa-skype"></i></a></div>
+			</article>
 			<div class="down-wrap">
 				<a href="#m" class="down">
 					<div class="down-anime">
@@ -60,94 +62,102 @@
 					</div>
 				</a>
 			</div>
-		</div>
-		<div class="wrapp-nav" id='menu'>
+		</header>
+		<!-- end header -->
+
+		<!-- begin menu -->
+		<section class="wrapp-nav" id='menu'>
 			<div class="container">
-				<div class="nav text">
+				<nav class="nav text">
 					<div class="menu-trigger">
 						 <div class='bt'>
-    						<div class='top-line line'></div>
-    						<div class='center-line line'></div>
-   						    <div class='bottom-line line'></div>
+    						<span class='top-line line'></span>
+    						<span class='center-line line'></span>
+   						    <span class='bottom-line line'></span>
   						</div>
 					</div>
 					<ul>
 						<li><a href="#h">главная</a></li>
 						<li><a href="#m">Обо мне</a></li>
 						<li><a href="#counts">навыки</a></li>
-						<li><a href="#w">работы</a></li>
 						<li><a href="#ser">сертификат</a></li>
 					</ul>
-				</div>
+				</nav>
 			</div>
-		</div>
-		<div class="section-two text" id='m'>
-			<div class="container" id='d'>
-				<div class="caption">
+		</section>
+		<!-- end menu -->
+
+		<!-- begin my life info (section-two) -->
+		<section class="section-two text" id='m'>
+			<article class="container" id='d'>
+				<section class="caption">
 					<h2 >личная информация</h2>
-				</div>
+				</section>
 				<div class="row">
-					<div class="my-info col-12 col-md-6 col-lg-3">
+					<article class="my-info col-12 col-md-6 col-lg-3">
 						<i class="fa-2x fa fa-birthday-cake" aria-hidden="true"></i>
 						<h3>Дата рождения</h3>
 						<span>28</span>
 						<span>Январь</span>
 						<span>1993 г.</span>
-					</div>
-					<div class="my-info col-12 col-md-6 col-lg-3">
+					</article>
+					<article class="my-info col-12 col-md-6 col-lg-3">
 						<i class="fa-2x fa fa-map-marker" aria-hidden="true"></i>
 						<h3>Место проживания</h3>
 						<span>Украина</span>
 						<span>г. Николаев</span>
-					</div>
-					<div class="my-info col-12 col-md-6 col-lg-3">
+					</article>
+					<article class="my-info col-12 col-md-6 col-lg-3">
 						<i class="fa-2x fa fa-graduation-cap" aria-hidden="true"></i>
 						<h3>Образование</h3>
 						<span>Высшее</span>
 						<span>2010-2016 г.</span>
 						<span>Национальный университет кораблестроения имени адмирала Макарова</span>
 						<span>Факультет: Компьютерные науки</span>
-					</div>
-					<div class="my-info col-12 col-md-6 col-lg-3">
+					</article>
+					<article class="my-info col-12 col-md-6 col-lg-3">
 						<i class="fa-2x fa fa-fighter-jet" aria-hidden="true"></i>
 						<h3>Служба в армии</h3>
 						<span>2016-2017 г.</span>
 						<span>Национальна гвардия Украины</span>
-					</div>
+					</article>
 				</div>
-			</div>
-		</div>
-		<div class="section-three text">
+			</article>
+		</section>
+		<!-- end my life info (section-two) -->
+
+		<!-- begin interests (section-three) -->
+		<section class="section-three text">
 			<div class="container">
-				<div class="caption">
+				<article class="caption">
 					<h2>интересы</h2>
-				</div>
+				</article>
 				<div class="row">
 					<div class="wrapp-slide">
 						<div class="slide slide-1">
 							<div class="slide-text">
-								<div class="wrapp-text">
+								<article class="wrapp-text">
 									<h3>занятие тяжелой атлетикой</h3>
 									<p>-Укрепляет дух и тело</p>
-								</div>
+								</article>
 							</div>
 							<img src="img/ta.jpg" alt="тяжелая атлетика">
 						</div>
 						<div class="slide slide-2">
 							<div class="slide-text">
-								<div class="wrapp-text">
+								<article class="wrapp-text">
 									<h3>Веб-разработка</h3>
 									<p>-Не только работа но и хобби</p>
-								</div>
+								</article>
 							</div>
 							<img src="img/webd2.jpg" alt="веб-разработка">
 						</div>
 						<div class="slide slide-3">
 							<div class="slide-text">
-								<div class="wrapp-text">
+								<article class="wrapp-text">
 									<h3>музыка</h3>
 									<p>-Всегда поднимает настроение</p>
-								</div>
+								</article>
 							</div>
 							<img src="img/music.jpg" alt="музика">
 						</div>
@@ -155,89 +165,78 @@
 
 				</div>
 			</div>
-		</div>
-		<div class="section-four" id='counts'>
+		</section>
+		<!-- end interests (section-three) -->
+
+		<!-- begin skills (section-four) -->
+		<section class="section-four" id='counts'>
 			<div class="container">
-				<div class="caption" >
+				<article class="caption" >
 					<h2 >навыки</h2>
-				</div>
+				</article>
 				<div class="row">
-					<div class="wrapp-pb col-12 col-md-4">
+					<article class="wrapp-pb col-12 col-md-4">
 						<h3>html</h3>
 						<div class="pb" id='pb-1'></div>
-					</div>
-					<div class="wrapp-pb col-12 col-md-4">
+					</article>
+					<article class="wrapp-pb col-12 col-md-4">
 						<h3>css</h3>
 						<div class="pb" id='pb-2'></div>
-					</div>
-					<div class="wrapp-pb col-12 col-md-4">
+					</article>
+					<article class="wrapp-pb col-12 col-md-4">
 						<h3>jQuery</h3>
 						<div class="pb" id='pb-3'></div>
-					</div>
+					</article>
 				</div>
 				<div class="instruments" id='counts-two'>
 					
-					<div class="instruments-cap" >
+					<article class="instruments-cap" >
 							
 						<h3>Использую в работе</h3>
 							
-					</div>
+					</article>
 					<div class="intr-wrapp ">
 						<div class="row">
-							<div class="wrap-img col-12 col-md-6 col-lg-2"><img src="img/gulp.png" alt="gulp"></div>
-							<div class="wrap-img col-12 col-md-6 col-lg-2"><img src="img/git.png" alt="Git"></div>
-							<div class="wrap-img col-12 col-md-6 col-lg-2"><img src="img/sass.png" alt="Sass"></div>
-							<div class="wrap-img col-12 col-md-6 col-lg-2"><img src="img/bst.png" alt="Bootstrap"></div>
-							<div class="wrap-img col-12 col-md-12 col-lg-2"><img src="img/ps.png" alt="Photoshop"></div>
+							<figure class="wrap-img col-12 col-md-6 col-lg-2"><img src="img/gulp.png" alt="gulp"></figure>
+							<figure class="wrap-img col-12 col-md-6 col-lg-2"><img src="img/git.png" alt="Git"></figure>
+							<figure class="wrap-img col-12 col-md-6 col-lg-2"><img src="img/sass.png" alt="Sass"></figure>
+							<figure class="wrap-img col-12 col-md-6 col-lg-2"><img src="img/bst.png" alt="Bootstrap"></figure>
+							<figure class="wrap-img col-12 col-md-12 col-lg-2"><img src="img/ps.png" alt="Photoshop"></figure>
 						</div>
 					</div>
 				</div>
 			</div>
-		</div>
-		<div class="section-five" id='w'>
-			<div class="container">
-				<div class="caption">
-					<h2>мои работы</h2>
-				</div>
-				<div class="row">
-					<div class="wrapp-worck  col-12 col-md-12 col-lg-6">
-						<div class='wrapp-h ww-1'><p class='h-down'>Сайт - реклама с услугами для Аквариумиста</p><span class='h'></span><a class='w-bt' href="https://github.com/Artyom-Patsera/akvarium">посмотреть</a><img src="img/w-2.jpg" alt="akvarium" style='vertical-align: middle'></div>
-						<a class='loc' href="http://aquarium-niko.ho.ua/">aquarium-niko.ho.ua</a>
-						<a class='loc' href="https://github.com/Artyom-Patsera/akvarium">Github</a>
-					</div>
-					<!-- <div class="wrapp-worck  col-12 col-md-6 col-lg-4">
-						<div class='wrapp-h ww-2'><p class='h-down'> Обычный шаблон</p><span  class='h'></span><a class='w-bt' href="https://github.com/Artyom-Patsera/training-project">посмотреть</a><img src="img/pw-2.jpg" alt="training-project"></div>
-					</div> -->
-					<div class="wrapp-worck  col-12 col-md-12 col-lg-6">
-						<div class='wrapp-h ww-3'><p class='h-down'>сайт - портфолио</p><span class='h'></span><a class='w-bt' href="https://github.com/Artyom-Patsera/Artyom-Patsera.github.io">посмотреть</a><img src="img/w-1.jpg" alt="portfolio" style='vertical-align: middle'></div>
-						<a class='loc' href="https://artyom-patsera.github.io/">Artyom-Patsera.github.io</a>
-						<a class='loc' href="https://github.com/Artyom-Patsera/Artyom-Patsera.github.io">Github</a>
-					</div>
-					<!-- <div class="ps">Примечание: В работах используется Flexbox grid (Bootstrap 4) но могу верстать под любые версии браузеров </div> -->
-				</div>
-			</div>
-		</div>
-		<div class="tm">
-			<div class="container">
-				<div class="caption " id='ser'>
+		</section>
+		<!-- end skills (section-four) -->
+
+		<!-- begin Certificate (section-five) -->
+		<section class="five tm">
+			<article class="caption " id='ser'>
 					<h2>Сертификат</h2>
-				</div>
-				<div class="ser"><img src="img/sert.jpg" alt=""></div>
-			</div>
-		</div>
-
-
-	</div>
-	<div class="footer">
+			</article>
 			<div class="container">
-				<div class="vk"><a href="https://vk.com/id28660770"><i class="fa fa-vk" aria-hidden="true"></i></a></div>
-				<div class="sk"><a href="skype:artyom_patsera?chat"><i class="fa fa-skype" aria-hidden="true"></i></a></div>
-				<div class="pr"> 2018 Patsera Artem | ArtyomPatsera@gmail.com </div>
-				<div class="phone">
-					<i class="fa fa-mobile" aria-hidden="true"></i> +38(095)24-81-941
-				</div>
+				
+				<figure class="ser"><img src="img/sert.jpg" alt=""></figure>
 			</div>
+		</section>
+		<!-- end Certificate (section-five) -->
+
+
 	</div>
+	<!-- end wrapper -->
+
+	<!-- begin footer -->
+	<footer class="footer">
+			<div class="container">
+				<div class="gm"><a href="mailto:ArtyomPatsera@gmail.com"><i class="fas fa-envelope"></i></a></div>
+				<div class="sk"><a href="skype:artyom_patsera?chat"><i class="fab fa-skype"></i></a></div>
+				<span class="pr"> 2018 Patsera Artem | ArtyomPatsera@gmail.com </span>
+				<span class="phone">
+					<i class="fa fa-mobile" aria-hidden="true"></i> +38(095)24-81-941
+				</span>
+			</div>
+	</footer>
+	<!-- end footer -->
 	
    
    
@@ -251,8 +250,8 @@
 	
 
 	
-	<link rel="stylesheet" href="css/main.min.css">
 	
+	<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 	<script src="js/scripts.min.js"></script>
 
 </body>
