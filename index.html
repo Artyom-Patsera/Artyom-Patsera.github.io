@@ -11,7 +11,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-	
+	<!-- <meta property="og:image" content="path/to/image.jpg"> -->
 	<link rel="shortcut" href="img/icon-16.png" type="image">
 	<link rel="apple-touch-icon" href="img/icon-48.png">
 	<link rel="apple-touch-icon" sizes="72x72" href="img/icon-72.png">
@@ -24,13 +24,12 @@
 	<meta name="msapplication-navbutton-color" content="#000">
 	<!-- iOS Safari -->
 	<meta name="apple-mobile-web-app-status-bar-style" content="#000">
-   	<link rel="stylesheet" href="css/main.min.css">
+   	<link rel="stylesheet" href='css/main.min.css'>
 	
 
 </head>
 
 <body>
-	
 	<div class="preloder">
 		<div class="loder">
 			<img src="img/preloder.gif" alt="">
@@ -38,24 +37,23 @@
 		</div>
 		
 	</div>
-	<!-- begin wrapper -->
 	<div class="wrapper">
 		<!-- begin header -->
 		<header class="header" data-speed="20" data-type="background" id="h">
-			<div class="pm">
-				<span class="phone">
+			<section class="pm">
+				<div class="phone">
 					<i class="fa fa-mobile" aria-hidden="true"></i> +38(095)24-81-941
-				</span>
-				<span class="mail">
-					<a href="mailto:ArtyomPatsera@gmail.com" style='color: #fff'><i class="fas fa-envelope"></i> ArtyomPatsera@gmail.com</a>
-				</span>
-			</div>
-			<section class="frame">
-				<span class="hello text">Привет, меня зовут Пацера Артем и я</span>
-				<h1 class="fed">front-end developer</h1>
-				<div class="gm vk"><a href="mailto:ArtyomPatsera@gmail.com"><i class="fas fa-envelope"></i></a></div>
-				<div class="sk"><a href="skype:artyom_patsera?chat"><i class="fab fa-skype"></i></a></div>
+				</div>
+				<div class="mail">
+					<i class="fas fa-envelope"></i> ArtyomPatsera@gmail.com
+				</div>
 			</section>
+			<article class="frame">
+				<span class="hello text">Привет, меня зовут Пацера Артем и я</span>
+				<span class="fed"><h1>front-end developer</h1></span>
+				<div class="gm"><a href="mailto:ArtyomPatsera@gmail.com"><i class="fas fa-envelope"></i></a></div>
+				<div class="sk"><a href="skype:artyom_patsera?chat"><i class="fab fa-skype"></i></a></div>
+			</article>
 			<div class="down-wrap">
 				<a href="#m" class="down">
 					<div class="down-anime">
@@ -67,33 +65,34 @@
 		<!-- end header -->
 
 		<!-- begin menu -->
-		<div class="wrapp-nav" id='menu'>
+		<section class="wrapp-nav" id='menu'>
 			<div class="container">
 				<nav class="nav text">
-					<div class="menu-trigger">
+					<figure class="menu-trigger">
 						 <div class='bt'>
     						<span class='top-line line'></span>
     						<span class='center-line line'></span>
    						    <span class='bottom-line line'></span>
   						</div>
-					</div>
+					</figure>
 					<ul>
-						<li><a href="#h">главная</a></li>
+						<li><a href="#h" class='active'>главная</a></li>
 						<li><a href="#m">Обо мне</a></li>
+						<li><a href="#hbb">интересы</a></li>
 						<li><a href="#counts">навыки</a></li>
 						<li><a href="#ser">сертификат</a></li>
 					</ul>
 				</nav>
 			</div>
-		</div>
+		</section>
 		<!-- end menu -->
 
 		<!-- begin my life info (section-two) -->
 		<section class="section-two text" id='m'>
-			<div class="container" id='d'>
-				<div class="caption">
-					<h2>личная информация</h2>
-				</div>
+			<article class="container" id='d'>
+				<section class="caption">
+					<h2 >личная информация</h2>
+				</section>
 				<div class="row">
 					<article class="my-info col-12 col-md-6 col-lg-3">
 						<i class="fa-2x fa fa-birthday-cake" aria-hidden="true"></i>
@@ -123,16 +122,16 @@
 						<span>Национальна гвардия Украины</span>
 					</article>
 				</div>
-			</div>
+			</article>
 		</section>
 		<!-- end my life info (section-two) -->
 
 		<!-- begin interests (section-three) -->
-		<section class="section-three text">
+		<section class="section-three text" id='hbb'>
 			<div class="container">
-				<div class="caption">
+				<article class="caption">
 					<h2>интересы</h2>
-				</div>
+				</article>
 				<div class="row">
 					<div class="wrapp-slide">
 						<div class="slide slide-1">
@@ -172,9 +171,9 @@
 		<!-- begin skills (section-four) -->
 		<section class="section-four" id='counts'>
 			<div class="container">
-				<div class="caption" >
+				<article class="caption" >
 					<h2 >навыки</h2>
-				</div>
+				</article>
 				<div class="row">
 					<article class="wrapp-pb col-12 col-md-4">
 						<h3>html</h3>
@@ -198,23 +197,23 @@
 					</article>
 					<div class="intr-wrapp ">
 						<div class="row">
-							<figure class="wrap-img col-12 col-md-6 col-lg-2"><img src="img/gulp.png" alt="gulp"></figure>
-							<figure class="wrap-img col-12 col-md-6 col-lg-2"><img src="img/git.png" alt="Git"></figure>
-							<figure class="wrap-img col-12 col-md-6 col-lg-2"><img src="img/sass.png" alt="Sass"></figure>
-							<figure class="wrap-img col-12 col-md-6 col-lg-2"><img src="img/bst.png" alt="Bootstrap"></figure>
-							<figure class="wrap-img col-12 col-md-12 col-lg-2"><img src="img/ps.png" alt="Photoshop"></figure>
+							<figure class="wrap-img col-12 col-sm-6 col-lg-2"><img src="img/gulp.png" alt="gulp"></figure>
+							<figure class="wrap-img col-12 col-sm-6 col-lg-2"><img src="img/git.png" alt="Git"></figure>
+							<figure class="wrap-img col-12 col-sm-6 col-lg-2"><img src="img/sass.png" alt="Sass"></figure>
+							<figure class="wrap-img col-12 col-sm-6 col-lg-2"><img src="img/bst.png" alt="Bootstrap"></figure>
+							<figure class="wrap-img col-12 col-sm-12 col-lg-2"><img src="img/ps.png" alt="Photoshop"></figure>
 						</div>
 					</div>
 				</div>
 			</div>
 		</section>
 		<!-- end skills (section-four) -->
-
+		
 		<!-- begin Certificate (section-five) -->
-		<section class="five tm">
-			<div class="caption " id='ser'>
+		<section class="five tm" id='ser'>
+			<article class="caption ">
 					<h2>Сертификат</h2>
-			</div>
+			</article>
 			<div class="container">
 				
 				<figure class="ser"><img src="img/sert.jpg" alt=""></figure>
@@ -224,12 +223,11 @@
 
 
 	</div>
-	<!-- end wrapper -->
 
 	<!-- begin footer -->
 	<footer class="footer">
 			<div class="container">
-				<div class="gm vk"><a href="mailto:ArtyomPatsera@gmail.com"><i class="fas fa-envelope"></i></a></div>
+				<div class="gm"><a href="mailto:ArtyomPatsera@gmail.com"><i class="fas fa-envelope"></i></a></div>
 				<div class="sk"><a href="skype:artyom_patsera?chat"><i class="fab fa-skype"></i></a></div>
 				<span class="pr"> 2018 Patsera Artem | ArtyomPatsera@gmail.com </span>
 				<span class="phone">
@@ -253,7 +251,7 @@
 	
 	
 	<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
-	<script src="js/scripts.min.js"></script>
+	<script src='js/scripts.min.js'></script>
 
 </body>
 </html>
